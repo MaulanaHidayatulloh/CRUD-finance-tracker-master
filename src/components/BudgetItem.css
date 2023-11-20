@@ -1,0 +1,44 @@
+.budget-item {
+    border: 1px solid #030303;
+    padding: 10px;
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--table-background-color);
+    transition: background-color 0.3s ease;
+  }
+  
+  .budget-item p {
+    margin: 0;
+  }
+  
+  .budget-amount {
+    color: var(--add-button-color);
+  }
+  
+  .budget-buttons button {
+    margin-left: 5px;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 3px;
+  }
+  
+  .edit-button {
+    background-color: var(--edit-button-color);
+    color: #0cfd18;
+    border: none;
+  }
+  
+  .edit-button:hover {
+    background-color: #53ec0c;
+  }
+  
+  .delete-button {
+    background-color: var(--delete-button-color);
+    color: #da0d0d;
+    border: none;
+  }
+  
+  .delete-button:hover {
+    background-color: #fc251d;
+  }
